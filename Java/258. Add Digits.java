@@ -1,5 +1,6 @@
 package Java;
-class Solution {
+
+class DigitSolution {
     public int addDigits(int num) {
         if (num < 10) {
             return num;
@@ -9,10 +10,10 @@ class Solution {
     }
 }
 
-class AddDigits{
 
+class AddDigits{
     public static void main(String args[]){
-        Solution solution = new Solution();
+        DigitSolution solution = new DigitSolution();
         int answer = solution.addDigits(38);
         System.out.println(answer);
     }
